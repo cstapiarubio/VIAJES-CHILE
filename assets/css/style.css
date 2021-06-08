@@ -1,0 +1,67 @@
+/*general*/
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    background-color: black;
+}
+
+/*nav*/
+
+nav a, nav button span, footer i{
+    color:white !important;   
+}
+
+nav{
+    background-color: #299ba7;
+}
+
+/*carousel*/
+
+.carousel img{
+    background-size: cover;
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    }
+
+/*quienes somos*/
+
+h2{
+    text-align:center;
+    width: 100%;
+}
+
+hr{
+    color: #299ba7;
+    height: 3px;
+    width: 90%;
+    opacity:100%;
+}
+
+.icon{
+    text-align: center;
+    background-color: #299ba7;
+    height: 10%;
+}
+
+.icon i{
+    /*vertical-align: middle;*/
+}
+
+/*destacados*/
+
+.card{
+    background-color: #24a5b9;
+    border-color: #a5b9b9;
+}
+
+footer{
+    background-color: #24a5b9; 
+}
+
