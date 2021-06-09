@@ -72,15 +72,15 @@
             <h2>¿Quiénes somos?</h2>
             <hr class="linea1 mx-auto">
             <div class="col-md-4">
-                <p class="icon"><i class="fas fa-plane fa-2x"></i></p>
+                <p class="icon" data-toggle="tooltip" data-placement="top" title="Viajes"><i class="fas fa-plane fa-2x"></i></p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere rhoncus orci, eu hendrerit libero. Cras rhoncus est ac tortor sagittis volutpat. Integer et porttitor urna. Nullam at aliquam felis, nec placerat ante. Nullam volutpat at augue vitae ornare. Etiam faucibus lectus tortor, in condimentum mi tristique eget. Nulla facilisis ante massa, nec congue enim mattis eget. Fusce consequat eleifend vulputate. Quisque hendrerit lacinia nisl, non mattis sapien eleifend id. Pellentesque in orci eu enim gravida scelerisque. Phasellus at ligula vitae dolor pharetra lobortis non in lorem. Fusce id magna fermentum velit luctus rhoncus et in dui. Praesent ut lectus id metus imperdiet semper. Ut varius est vel urna suscipit pulvinar. Nulla a iaculis erat, a aliquet mi. Morbi at arcu sit amet ante ullamcorper dapibus.</p>
             </div>
             <div class="col-md-4">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere rhoncus orci, eu hendrerit libero. Cras rhoncus est ac tortor sagittis volutpat. Integer et porttitor urna. Nullam at aliquam felis, nec placerat ante. Nullam volutpat at augue vitae ornare. Etiam faucibus lectus tortor, in condimentum mi tristique eget. Nulla facilisis ante massa, nec congue enim mattis eget. Fusce consequat eleifend vulputate. Quisque hendrerit lacinia nisl, non mattis sapien eleifend id. Pellentesque in orci eu enim gravida scelerisque. Phasellus at ligula vitae dolor pharetra lobortis non in lorem. Fusce id magna fermentum velit luctus rhoncus et in dui. Praesent ut lectus id metus imperdiet semper. Ut varius est vel urna suscipit pulvinar. Nulla a iaculis erat, a aliquet mi. Morbi at arcu sit amet ante ullamcorper dapibus.</p>
-                <p class="icon"><i class="fas fa-mountain fa-2x"></i></p>
+                <p class="icon" data-toggle="tooltip" data-placement="bottom" title="Paisajes"><i class="fas fa-mountain fa-2x"></i></p>
             </div>
             <div class="col-md-4">
-                <p class="icon"><i class="fas fa-route fa-2x"></i></p>
+                <p class="icon" data-toggle="tooltip" data-placement="top" title="Rutas"><i class="fas fa-route fa-2x"></i></p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere rhoncus orci, eu hendrerit libero. Cras rhoncus est ac tortor sagittis volutpat. Integer et porttitor urna. Nullam at aliquam felis, nec placerat ante. Nullam volutpat at augue vitae ornare. Etiam faucibus lectus tortor, in condimentum mi tristique eget. Nulla facilisis ante massa, nec congue enim mattis eget. Fusce consequat eleifend vulputate. Quisque hendrerit lacinia nisl, non mattis sapien eleifend id. Pellentesque in orci eu enim gravida scelerisque. Phasellus at ligula vitae dolor pharetra lobortis non in lorem. Fusce id magna fermentum velit luctus rhoncus et in dui. Praesent ut lectus id metus imperdiet semper. Ut varius est vel urna suscipit pulvinar. Nulla a iaculis erat, a aliquet mi. Morbi at arcu sit amet ante ullamcorper dapibus.</p>
             </div>
         </section>
@@ -170,7 +170,31 @@
                     </li>
                 </ul>
             </div>    
-        </footer> 
+        </footer>
+        
+        <!--Modal-->
+        <div class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Cotiza tu viaje con nosotros</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>1- Patagonia austral</p>
+                  <p>2- Lago Chungará</p>
+                  <p>3- Salar de Atacama</p>
+                  <p>4- Selva valdiviana</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                  <button type="button" class="btn btn-primary">Guardar cambios</button>
+                </div>
+              </div>
+            </div>
+        </div>
 
 
         <script src="assets/js/script.js"></script>

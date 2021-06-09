@@ -72,7 +72,14 @@ footer{
     padding-left:20%;
 }
 
+/*modal*/
+
+.modal p, .modal h5{
+    color:black;
+}
+
 /*media-queries*/
+
 /*Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) { 
 
@@ -87,7 +94,6 @@ footer{
  /*Large devices (desktops, 992px and up)*/
 @media (max-width: 992px) { 
    #quienes{display:none;} 
-   #img-mountain{height:170px;}
-    
+   #img-mountain{height:170px;}   
 }
 
