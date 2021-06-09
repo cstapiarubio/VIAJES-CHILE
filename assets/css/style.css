@@ -17,9 +17,6 @@ nav a, nav button span, footer i{
     color:white !important;   
 }
 
-nav{
-    background-color: #299ba7;
-}
 
 /*carousel*/
 
@@ -51,7 +48,7 @@ hr{
 }
 
 .icon i{
-    /*vertical-align: middle;*/
+    padding-top: 2%;
 }
 
 /*destacados*/
@@ -61,7 +58,36 @@ hr{
     border-color: #a5b9b9;
 }
 
+#img-mountain{
+    height: 170px;
+}
+
+/*footer*/
+
 footer{
     background-color: #24a5b9; 
+}
+
+.lista{
+    padding-left:20%;
+}
+
+/*media-queries*/
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) { 
+
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { 
+    .tarjeta{padding-top:15%;}
+    #img-mountain{height:auto;}
+ }
+
+ /*Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) { 
+   #quienes{display:none;} 
+   #img-mountain{height:170px;}
+    
 }
 
